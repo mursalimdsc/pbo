@@ -13,7 +13,7 @@ class Employee:
     print ("Name :",self.name, ", Salary: ", self.salary)
 
 emp1 = Employee("Mursalim", 10000)
-emp2 = EMployee("Arif K",5000) 
+emp2 = Employee("Arif K",5000) 
 emp1.displayEmployee()
 emp2.displayEmployee()
-print ("total Employee %d" % Employee.empCount()
+print ("total Employee %d" % Employee.empCount)
