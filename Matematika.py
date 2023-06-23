@@ -27,9 +27,7 @@ class Matematika:
         print (hasil)
         return hasil
         
-    #pengurangan(10,10,10,10)
-   ## perkalian(20, 10, 6)
-    #perpangkatan(25,2)
+
 matematika = Matematika(100,10,20,20);
 matematika.pengurangan()
 matematika.penjumlahan()
