@@ -23,7 +23,7 @@ class Man_Employee:
         #return f"{self.name} is {self.age} years old"
         return f"Nama: {self.name} \nUsia: {self.age} \nAgama: {self.agama} \nJenis Kelamin: {self.jnskel} \nAlamat:{self.alamat} \nStatus: {self.status}"
     
-tes_qois = Man_Employee("Ageng",22,"Agama","Laki-laki","Batang","Jomblo",1000000)
+tes_qois = Man_Employee("Mursalim",22,"Agama","Laki-laki","Batang","Jomblo",1000000)
 print(tes_qois.biodata())
 print("Suku: ", tes_qois.suku)
 
